@@ -6,5 +6,5 @@ fun FormIsian(
     jenisK: List<String> = listOf("Laki-laki", "Perempuan"),
     OnSubmitBtnClick : () -> Unit
 ){
-    // Ruang untuk layout
+    Scaffold (modifier=Modifier) { isiRuang ->
 }
