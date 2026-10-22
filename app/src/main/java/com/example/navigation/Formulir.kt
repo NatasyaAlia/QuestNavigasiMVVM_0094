@@ -14,4 +14,9 @@ fun FormIsian(
                 containerColor = colorResource(id = R.color.teal_700))
         )
     }
+    Column(modifier = Modifier.padding(paddingValues = isiRuang),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally) {
+        // Ruang untuk form input
+    }
 }
