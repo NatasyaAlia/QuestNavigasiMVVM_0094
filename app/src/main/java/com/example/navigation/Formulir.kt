@@ -17,6 +17,12 @@ fun FormIsian(
     Column(modifier = Modifier.padding(paddingValues = isiRuang),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally) {
-        // Ruang untuk form input
+        OutlinedTextField(
+            value = "",
+            onValueChange = {}, // Wajib ada di Compose
+            singleLine = true,
+            modifier = Modifier
+                .padding(top = 20.dp)
+        )
     }
 }
